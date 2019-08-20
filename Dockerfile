@@ -1,5 +1,5 @@
 FROM alpine:latest 
-MAINTAINER bala@salunke.com
+MAINTAINER b@salunke.com
 LABEL BALA test image
 ADD mytar.tar.gz ./
 CMD ["/bin/sh"]
